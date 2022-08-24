@@ -1,0 +1,11 @@
+For the 6/30 submission, the ground measures data file was not read correctly.
+
+To fix, line 74 in RunModels.py was changed from:
+
+"if not (fields[d+1] == ''):" 
+
+to 
+
+"if not (fields[d+1] == '') and len(fields[d+1]) > 1:" (line 76 in the current version of RunModels.py)
+
+Note that the Readme file was updated slighlty based on the README_template at https://github.com/drivendataorg/prize-winner-template
