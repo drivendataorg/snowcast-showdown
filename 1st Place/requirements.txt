@@ -1,0 +1,26 @@
+azure==4.0.0
+# azure-storage-blob==12.9.0 ! https://github.com/Azure/azure-storage-python/issues/389
+planetary_computer
+earthengine-api==0.1.292
+wget
+numpy==1.21.4
+geojson
+proj
+pyproj
+geotiff
+pyhdf==0.10.3
+netCDF4
+MetPy==1.1.0
+scipy
+pandas
+torch==1.9.1
+torch-scatter==2.0.9 # needs only for speedup model training
+matplotlib==3.3.4
+seaborn
+opencv-python
+xarray==0.20.2
+regex
+opencv-python-headless
+shapely
+pyshp
+imagecodecs
