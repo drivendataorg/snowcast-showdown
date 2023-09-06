@@ -13,7 +13,7 @@ Seasonal mountain snowpack is a critical water resource throughout the Western U
 
 ## What's in this Repository
 
-This repository contains code from winning competitors in the [Snowcast Showdown](https://www.drivendata.org/competitions/90/competition-reclamation-snow-water-eval/) DrivenData challenge.
+This repository contains code from winning competitors in the [Snowcast Showdown](https://www.drivendata.org/competitions/90/competition-reclamation-snow-water-eval/) DrivenData challenge. Code for all winning solutions are open source under the MIT License.
 
 **Winning code for other DrivenData competitions is available in the [competition-winners repository](https://github.com/drivendataorg/competition-winners).**
 
@@ -30,6 +30,8 @@ Place |Team or User | Score | Summary of Model
 5   | oshbocker | 4.1828 | I used an ensemble of three different gradient boosting implementations, LightGBM, XGBoost, and Catboost. Since gradient boosting naturally works with tabular data, I used the mean and in some cases the variance of pixel values from the Modis data and the DEM over an entire grid cell. I also created a feature representing southern sun exposure and a feature capturing the number of days since the beginning of the snow season. The way I incorporated the ground measures was to use the relative SWE, compared to historical average for a ground measure station. Then for each grid cell I took the 15 nearest neighbors relative SWE.
 
 Additional solution details can be found in the `reports` folder inside the directory for each submission.
+
+**Interviews with the winners: ["Meet the Winners of the Snowcast Showdown Competition"](https://drivendata.co/blog/swe-winners)**
 
 ### Modeling Report
 
